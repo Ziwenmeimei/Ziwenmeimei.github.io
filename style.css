@@ -1,0 +1,138 @@
+/*
+ * Add your CSS styles to this file.
+ */
+/*
+ * Add your CSS styles to this file.
+ */
+
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:#00BBFF;
+}
+
+a{
+    text-decoration:none;
+}
+body{
+    font-family:Roboto,Helvetica,sans-serif;
+}
+
+.site-title{
+    background-color: #00BBFF;
+    color: white;
+    line-height: 50px;
+    text-indent: 0.5em;
+    font-weight:200;
+}
+
+li{
+    display:inline;
+}
+
+#navbar-search-button{
+    border-width: 0;
+    background-color: white;
+}
+
+#navbar-search-button,
+#create-twit-button
+{
+    cursor:pointer;
+}
+
+.navbar{
+    display:block;
+}
+
+.navitem{
+    display:fixed;
+}
+
+.navlink{
+    margin:10px;
+}
+
+.active{
+    text-decoration:underline;
+    color:#00BBFF;
+}
+
+li #navbar-search-input{
+    margin-left:850px
+}
+
+input{
+    background-color:#F5F5F5;
+}
+
+input:focus{
+    background-color:white;
+}
+
+button:hover{
+
+    color:#00BBFF;
+}
+
+.twit-container{
+    background-color:#F5F5F5;
+    display:flex;
+    flex:1 330px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+
+    min-height:800 px; 
+}
+
+.twit-content{
+    
+    background-color:white;
+    width:330px;
+    height:100px;
+    margin-left:20px;
+    margin-bottom:-20px;
+    padding:50px;
+    display:inline-block;
+}
+.twit-author{
+    font-weight:bold;
+    position:relative;
+    left:220px;
+    top:50px;
+}
+
+.twit-icon{
+    font-size:35px;
+    position:relative;
+    left:40px;
+    top:50px;
+}
+
+#create-twit-button{
+    background-color: red;
+    color:white;
+    position:fixed;
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 35px;
+    left:1120px;
+    bottom:60px;
+    padding:10px;
+    width:65px;
+    height:65px;
+    border-radius: 50%;
+    box-shadow:10px 10px 20px rgba(0,0,0,0.25);
+}
+
+#create-twit-button:hover{
+    background-color: #00BBFF;
+}
