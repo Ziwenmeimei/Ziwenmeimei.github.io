@@ -10,9 +10,9 @@
 }
 
 .navbar-search{
-    position:fixed;
+    position: relative;;
     left:800px;
-    bottom:570px;
+    bottom:10px;
 }
 
 #navbar-search-input{
