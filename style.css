@@ -127,6 +127,7 @@ p.twit-author{
 
 #create-twit-button:hover{
     background-color: #00BBFF;
+    transform: scale(1.1);
 }
 
 a{
