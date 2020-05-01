@@ -10,9 +10,9 @@
 }
 
 .navbar-search{
-    position: relative;;
-    left:800px;
-    bottom:10px;
+    position:relative;
+    bottom: 10px;
+    float: right;
 }
 
 #navbar-search-input{
@@ -25,15 +25,20 @@
 }
 
 .navitem{
+    display: inline-block;
     margin-right:10px;
 }
 
-li{
-    display:inline;
+.navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .active{
-    text-decoration:underline;
+    border-bottom-color: #00BBFF;
+    border-bottom-style: solid;
+    border-width: 2px;
     color:#00BBFF;
 }
 
@@ -113,16 +118,17 @@ p.twit-author{
 #create-twit-button{
     background-color: red;
     color:white;
-    position:fixed;
+    position: absolute;;
 
     font-size: 35px;
-    left:1000px;
-    bottom:60px;
+    right: 50px;
+    bottom: 30px;
     padding:10px;
     width:65px;
     height:65px;
     border-radius: 50%;
     box-shadow:10px 10px 20px rgba(0,0,0,0.25);
+    float: right;
 }
 
 #create-twit-button:hover{
@@ -141,6 +147,10 @@ a:visited{
     color:black;
 }
 
-a:hover{
+a, a:hover{
+    color:#00BBFF;
+}
+
+ul.navlist:hover{
     color:#00BBFF;
 }
